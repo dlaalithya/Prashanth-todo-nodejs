@@ -46,7 +46,7 @@ app.get('/', function (req, res) {
 
 //todo hozzaadas
 app.get('/add_todo', function(req, res) {
-	console.log('request for add_todo');
+	console.log('requesting for add_todo');
 	res.render('add_todo');
 });
 
